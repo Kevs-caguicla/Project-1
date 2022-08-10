@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Meta Tag-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Boot Strap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- ---- Font Awesome ---- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Ultra Shopping Center</title>
+  </head>
+
+  <body>
+    <!-- ---- Navbar ---- -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+      <div class="container">
+        <a
+          href="index.html"
+          class="navbar-brand d-flex align-items-center justify-content-between order-lg-0"
+        >
+          <img src="img/icon.jpg" alt="Site Icon" />
+          <span id="brand-name">AYCEA</span>
+        </a>
+
+        <div class="nav-btns order-lg-2">
+          <button class="btn position-relative" type="button">
+            <i class="fa fa-shopping-cart"></i>
+            <span
+              class="badge position-absolute top-0 bg-primary translate-middle start-100"
+            ></span>
+          </button>
+          <button class="btn position-relative" type="button">
+            <i class="fa fa-user"></i>
+            <span
+              class="badge position-absolute top-0 bg-primary translate-middle start-100"
+            ></span>
+          </button>
+          <button class="btn" type="button">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item px-2 py-2">
+              <a href="#" class="nav-link text-dark">HOME</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a href="#BEST-SELLER" class="nav-link text-dark">BEST SELLER</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a href="#ELITE-MEMBERS" class="nav-link text-dark"
+                >MEMBERS PERKS</a
+              >
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a href="#ELITE-MEMBERS" class="nav-link text-dark">ON SALE</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ---- Hero ---- -->
+    <section
+      id="hero"
+      class="vh-100 carousel slide"
+      data-bs-ride="carousel"
+      style="padding-top: 104px"
+    >
+      <div class="container carousel-inner h-100 d-flex align-items-center">
+        <div class="carousel-item text-center active">
+          <h1 class="text-black py-2 fw-bold">Best Seller</h1>
+          <a href="login.html" class="btn">BUY NOW</a>
+        </div>
+        <div class="carousel-item text-center">
+          <h1 class="text-white py-2 fw-bold">ON SALE</h1>
+          <a href="login.html" class="btn">BUY NOW</a>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-slide="prev"
+          data-bs-target="#hero"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-slide="next"
+          data-bs-target="#hero"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+<!-- ---- Menu ---- -->
+<section id="collection" class="py-5">
+  <div class="container">
+    <div class="title text-center">
+      <h2 class="position-relative d-inline-block">Menu</h2>
+    </div>
+    <div class="collection-list row mt-4 gx-0 gy-3">
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+        <div class="collection-img position-relative">
+          <img
+            src="img/cream1.jpg"
+            alt="cream1"
+            class="w-100"
+          />
+          <span
+            class="bg-primary position-absolute d-flex align-items-center justify-content-center text-white"
+            >sale</span
+          >
+        </div>
+        <div class="text-center">
+          <p class="text-capitalize my-1">Item 1</p>
+          <span class="fw-bold">₱ 70.00</span>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+        <div class="collection-img position-relative">
+          <img
+            src="img/cream2.jpg"
+            alt="cream2"
+            class="w-100"
+          />
+          <span
+            class="bg-primary position-absolute d-flex align-items-center justify-content-center text-white"
+            >sale</span
+          >
+        </div>
+        <div class="text-center">
+          <p class="text-capitalize my-1">Item 2</p>
+          <span class="fw-bold">₱ 70.00</span>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+        <div class="collection-img position-relative">
+          <img
+            src="img/cream3.jpg"
+            alt="cream3"
+            class="w-100"
+          />
+          <span
+            class="bg-primary position-absolute d-flex align-items-center justify-content-center text-white"
+            >sale</span
+          >
+        </div>
+        <div class="text-center">
+          
+          <p class="text-capitalize my-1">Item 3</p>
+          <span class="fw-bold">₱ 70.00</span>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 best">
+        <div class="collection-img position-relative">
+          <img
+            src="img/cream4.jpg"
+            alt="cream4"
+            class="w-100"
+          />
+          <span
+            class="bg-primary position-absolute d-flex align-items-center justify-content-center text-white"
+            >sale</span
+          >
+        </div>
+        <div class="text-center">
+          
+          <p class="text-capitalize my-1">Item 4</p>
+          <span class="fw-bold">₱ 70.00</span>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+        <div class="collection-img position-relative">
+          <img
+            src="img/tea1.jpg"
+            alt="tea1"
+            class="w-100"
+          />
+          <span
+            class="bg-primary position-absolute d-flex align-items-center justify-content-center text-white"
+            >sale</span
+          >
+        </div>
+        <div class="text-center">
+          
+          <p class="text-capitalize my-1">Item 5</p>
+          <span class="fw-bold">₱ 60.00</span>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+        <div class="collection-img position-relative">
+          <img
+            src="img/tea2.jpg"
+            alt="tea2"
+            class="w-100"
+          />
+          <span
+            class="bg-primary position-absolute d-flex align-items-center justify-content-center text-white"
+            >sale</span
+          >
+        </div>
+        <div class="text-center">
+          
+          <p class="text-capitalize my-1">Item 5</p>
+          <span class="fw-bold">₱ 60.00</span>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+        <div class="collection-img position-relative">
+          <img
+            src="img/tea3.jpg"
+            alt="tea3"
+            class="w-100"
+          />
+          <span
+            class="bg-primary position-absolute d-flex align-items-center justify-content-center text-white"
+            >sale</span
+          >
+        </div>
+        
+          <p class="text-capitalize my-1">Item 6</p>
+          <span class="fw-bold">₱ 60.00</span>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+        <div class="collection-img position-relative">
+          <img
+            src="img/tea4.jpg"
+            alt="tea4"
+            class="w-100"
+          />
+          <span
+            class="bg-primary position-absolute d-flex align-items-center justify-content-center text-white"
+            >sale</span
+          >
+        </div>
+        
+          <p class="text-capitalize my-1">Item 7</p>
+          <span class="fw-bold">₱ 60.00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+ <!-- ---- Specials ---- -->
+ <section id="specials" class="py-5">
+  <div class="container">
+    <div class="title text-center py-5">
+      <h2 class="position-relative d-inline-block">New Flavors</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+        <div class="special-img position-relative overflow-hidden">
+          <img
+            src="img/new1.jpg"
+            alt="new1"
+            class="w-100"
+          />
+          <span
+            class="bg-primary position-absolute d-flex align-items-center justify-content-center text-white"
+            >New</span     
+          </span>
+        </div>
+        <div class="text-center">
+          <p class="text capitalize mt-3 mb-1">New 1</p>
+          <span class="fw-bold d-block">₱ 50.00</span>
+          <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+        <div class="special-img position-relative overflow-hidden">
+          <img
+            src="img/new2.jpg" alt="new2"
+            class="w-100"
+          />
+          <span
+            class="bg-primary position-absolute d-flex align-items-center justify-content-center text-white"
+            >New</span     
+          </span>
+        </div>
+        <div class="text-center">
+          <p class="text capitalize mt-3 mb-1">New 2</p>
+          <span class="fw-bold d-block">₱ 50.00</span>
+          <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+        <div class="special-img position-relative">
+          <img
+            src="img/new13.jpg"
+            alt="new3"
+            class="w-100"
+          />
+          <span
+            class="bg-primary position-absolute d-flex align-items-center justify-content-center text-white"
+            >New</span     
+          </span>
+        </div>
+        <div class="text-center">
+          <p class="text capitalize mt-3 mb-1">New 3</p>
+          <span class="fw-bold d-block">₱ 50.00</span>
+          <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+        <div class="special-img position-relative">
+          <img
+            src="img/new4.jpg"
+            alt="new4"
+            class="w-100"
+          />
+          <span
+            class="bg-primary position-absolute d-flex align-items-center justify-content-center text-white"
+            >New</span     
+          </span>
+        </div>
+        <div class="text-center">
+          <p class="text capitalize mt-3 mb-1">New 4</p>
+          <span class="fw-bold d-block">₱ 50.00</span>
+          <a href="#" class="btn btn-primary mt-3">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- ---- Navbar ---- -->
+  </body>
+</html>
